@@ -1757,6 +1757,8 @@ GameObject:
   - component: {fileID: 1866445481}
   - component: {fileID: 1866445483}
   - component: {fileID: 1866445482}
+  - component: {fileID: 1866445485}
+  - component: {fileID: 1866445484}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1809,6 +1811,32 @@ MonoBehaviour:
   resource: 0
   dps: 0
   clickPower: 1
+--- !u!114 &1866445484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866445480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96a82274fe1ba1249ba73c3efaee4c1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AgeManager
+  currentAge: 0
+  level: 0
+--- !u!114 &1866445485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866445480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01a18e0ba765a814abca9dd91040809c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClickManager
 --- !u!1 &1889775028
 GameObject:
   m_ObjectHideFlags: 0
